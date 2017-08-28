@@ -3,7 +3,7 @@
 // PRODUCTION configuration
 //
 /////////////////////////////////////////////////////////////////////
-const HOST_URL = process.env.HOST_URL || 'https://oss.autodesk.io'
+const HOST_URL = process.env.HOST_URL || 'https://frgblr.herokuapp.com'
 const PORT = 443
 
 module.exports = {
@@ -17,9 +17,9 @@ module.exports = {
     // client socket to connect.
     // eg. https://myforgeapp.mydomain.com
     readOnlyBuckets:[
-      'leefsmp-temp-forge',
-      'demo-bucket-emea',
-      'demo-bucket-us',
+      'buckybucket',
+      'buckybucketmp',
+      'buckybucketpresistant',
       ],
     host: `${HOST_URL}`,
     env: 'production',
